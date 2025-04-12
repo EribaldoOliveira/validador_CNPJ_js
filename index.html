@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="img/cpf1.png" type="image/x-icon">
+
+  <!-- Estilos e Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- jQuery e Máscara -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+  <!-- Script -->
+  <script src="js/script.js" defer></script>
+
+  <title>Validador de CNPJ</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Validador de CNPJ</h1>
+    <input type="text" id="cnpj" placeholder="Digite o CNPJ">
+    <div class="botões">
+      <button class="blue"  onclick="validarCNPJ()">Validar</button>
+      <button class="red" onclick="limparCampos()">Limpar</button>
+    </div>
+    <div id="resultado"></div>
+  </div>
+
+</body>
+</html>
